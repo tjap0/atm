@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/atm/bin/Debug/balance1.txt
+/atm/bin/Debug/balance4.txt
+/atm/bin/Debug/pasword1.txt
