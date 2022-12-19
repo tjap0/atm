@@ -37,6 +37,11 @@ namespace atm
             Form fr9 = new Form9();
             fr9.Show();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     class global
@@ -48,28 +53,28 @@ namespace atm
     class global1
     {
         //globālo mainīgo izveidošana pirmajam lietotājam
-        public static string psw1 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword1.txt");
-        public static string balance1 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance1.txt");
+        public static string psw1 = File.ReadAllText("pasword1.txt");
+        public static string balance1 = File.ReadAllText("balance1.txt");
     }
 
     class global2
     {
         //globālo mainīgo izveidošana otrajam lietotājam
-        public static string psw2 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword2.txt");
-        public static string balance2 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance2.txt");
+        public static string psw2 = File.ReadAllText("pasword2.txt");
+        public static string balance2 = File.ReadAllText("balance2.txt");
     }
 
     class global3
     {
         //globālo mainīgo izveide trešajam lietotājam
-        public static string psw3 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword3.txt");
-        public static string balance3 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance3.txt");
+        public static string psw3 = File.ReadAllText("pasword3.txt");
+        public static string balance3 = File.ReadAllText("balance3.txt");
     }
 
     class global4
     {
         //globālo mainīgo izveide ceturtajam lietotājam
-        public static string psw4 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword4.txt");
-        public static string balance4 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance4.txt");
+        public static string psw4 = File.ReadAllText("pasword4.txt");
+        public static string balance4 = File.ReadAllText("balance4.txt");
     }
 }

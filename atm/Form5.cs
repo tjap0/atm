@@ -52,10 +52,10 @@ namespace atm
         private void button1_Click(object sender, EventArgs e)
         {
             //mainīgo lielumu atkārtota inicializācija
-            global1.balance1 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance1.txt");
-            global2.balance2 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance2.txt");
-            global3.balance3 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance3.txt");
-            global4.balance4 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\balance4.txt");
+            global1.balance1 = File.ReadAllText("balance1.txt");
+            global2.balance2 = File.ReadAllText("balance2.txt");
+            global3.balance3 = File.ReadAllText("balance3.txt");
+            global4.balance4 = File.ReadAllText("balance4.txt");
 
             //noteikt, kura parole ir ievadīta Ienakt formā
             if (global.astr == global1.psw1)

@@ -38,10 +38,10 @@ namespace atm
         {
             //globālo mainīgo inicializācija
             global.astr = textBoxIenakt.Text;
-            global1.psw1 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword1.txt");
-            global2.psw2 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword2.txt");
-            global3.psw3 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword3.txt");
-            global4.psw4 = File.ReadAllText(@"C:\Users\nikvi\Documents\c#\atm\atm\bin\Debug\pasword4.txt");
+            global1.psw1 = File.ReadAllText("pasword1.txt");
+            global2.psw2 = File.ReadAllText("pasword2.txt");
+            global3.psw3 = File.ReadAllText("pasword3.txt");
+            global4.psw4 = File.ReadAllText("pasword4.txt");
 
             //ja lietotājs ievadīja 4 ciparus
             if (global.astr.Length == 4)
